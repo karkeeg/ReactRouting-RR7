@@ -64,6 +64,20 @@ The containerized application can be deployed to any platform that supports Dock
 - Fly.io
 - Railway
 
+### 🧠 Technologies Used
+
+- React
+
+- React Router v7
+
+- TypeScript
+
+- Tailwind CSS
+
+- Vite
+
+- Docker
+
 ### DIY Deployment
 
 If you're familiar with deploying Node applications, the built-in app server is production-ready.
