@@ -5,10 +5,15 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
+  root: "app",
   css: {
     postcss: {
       plugins: [tailwindcss, autoprefixer],
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true,
+  },
 });
